@@ -113,7 +113,7 @@ for ispecies in range(0,Nspecies):
 	
 	plt.plot(vpara, data_new[:, :].sum(axis=0))  # Soma sobre a dimensão vperp
 	plt.xlabel('vpara')
-	plt.ylabel('f(v)')
+	plt.ylabel('fmb(v)')
 	plt.title('Species ' + str(ispecies + 1) + ' Distribution')
 	plt.savefig(file_name + '.png')  # Salva o gráfico como imagem
 
